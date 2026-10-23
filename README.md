@@ -10,6 +10,8 @@
 
 </div>
 
+<p align="center"><img src="capstone/marketing/baton-hero-banner.png" alt="Baton (AI Delivery Sync &amp; Feed): never drop the baton" width="100%"></p>
+
 ---
 
 ## 🏃 Featured system: Baton (AI Delivery Sync & Feed for GitHub and Microsoft Teams)
@@ -34,6 +36,12 @@ Delivery work lives in three places that drift apart. It is **talked about** in 
 
 ① **Collect** GitHub events, agent sessions, and the Teams messages and meetings you share → ② **Sort** noise from news → ③ **Match** each message to the right board item → ④ **Write** short posts and suggestion cards → ⑤ **You decide** → ⑥ **Apply** with the only write token.
 
+### What you see
+
+[![Baton (AI Delivery Sync & Feed) desktop feed](capstone/marketing/baton-desktop-feed.png)](capstone/marketing/README.md)
+
+<sub>Concept design made in Claude Design. All names and data are fictional. More in the [launch kit](capstone/marketing/README.md).</sub>
+
 ### Who it's for
 
 Baton (AI Delivery Sync & Feed) starts with the programme lead (product manager, architect, engineering lead) and grows into a tool for the **whole team**. Each person gets a **personalized feed**: the products and workstreams they follow, their own PRs and reviews, mentions of them, and their agents' sessions, with their own ping rules. The details come in later sessions; see the [roadmap](#️-roadmap).
@@ -48,6 +56,7 @@ Baton (AI Delivery Sync & Feed) starts with the programme lead (product manager,
 | ARB checklist | The release gate: security, privacy, evals, cost, human oversight | [docs/arb-checklist.md](docs/arb-checklist.md) |
 | **Capstone part 1** (framing) | Scenario, problem, goals, stakeholders, ranked quality attributes, scope, C4 levels 1 and 2 | [docs/01-framing.md](docs/01-framing.md) |
 | Diagrams | PNG exports plus editable draw.io sources | [diagrams/](diagrams/) |
+| **Launch kit** | Product and marketing visuals (Claude Design) and a working-backwards press release | [capstone/marketing/](capstone/marketing/README.md) |
 
 ## 🗂️ Repository structure
 
@@ -69,7 +78,9 @@ ai-architecture-portfolio/
 │   ├── c4-l1-context.png
 │   ├── c4-l2-containers.png
 │   └── src/                           ← editable .drawio sources
-└── capstone/                          ← final architecture, slides and launch kit
+└── capstone/                          ← final architecture outputs and presentation materials
+    ├── README.md
+    └── marketing/                     ← launch kit: visuals, press release, Claude Design sources
 ```
 
 ## 🗺️ Roadmap

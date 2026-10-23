@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Baton mobile needs you</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#4F46E5}a:hover{color:#3730A3}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #F6F6FB; color: #0E0F1A; font-family: Inter, system-ui, sans-serif; display: flex; flex-direction: column">
+<header style="padding: 28px 20px 14px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<svg width="32" height="32" viewBox="0 0 36 36" role="img" aria-label="Baton logo"><rect width="36" height="36" rx="10" fill="#6366F1"></rect><rect x="7" y="15.5" width="22" height="5" rx="2.5" transform="rotate(-35 18 18)" fill="#FFFFFF"></rect><circle cx="27" cy="9" r="3" fill="#F5A524"></circle></svg>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px">Baton</span>
+</div>
+<button type="button" style="display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border-radius: 12px; background: #FFFFFF; border: 1px solid #D5D7E5; color: #0E0F1A; font: 600 13px Inter, sans-serif"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0E0F1A" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 5v14"></path><path d="M15 5v14"></path></svg>Pause</button>
+</div>
+<div>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 32px; letter-spacing: -0.02em">Needs you</h1>
+<p style="margin: 4px 0 0; font-size: 14px; color: #5B5F73">2 today · your limit is 5</p>
+</div>
+</header>
+<main style="flex: 1 1 auto; padding: 4px 16px; display: flex; flex-direction: column; gap: 12px">
+<div style="background: #FFFFFF; border: 1px solid #E3E4EE; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 12px">
+<span style="flex: 0 0 40px; width: 40px; height: 40px; border-radius: 12px; background: #F5A524; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0E0F1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15L6 16z"></path><path d="M10 20a2 2 0 0 0 4 0"></path></svg></span>
+<div>
+<p style="margin: 0; font-size: 16px; font-weight: 700">Release 2.4 → prod</p>
+<p style="margin: 2px 0 0; font-size: 13px; color: #5B5F73">Payments · 2 min ago</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.45; color: #2B2E40">Passed pre-prod checks. The deploy is waiting for your approval in GitHub.</p>
+<div style="display: flex; gap: 8px">
+<a href="https://github.com" style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 12px; background: #4F46E5; color: #FFFFFF; font-size: 14px; font-weight: 600; text-decoration: none">Approve in GitHub</a>
+<button type="button" style="min-height: 44px; padding: 0 16px; border-radius: 12px; background: #FFFFFF; color: #0E0F1A; border: 1px solid #D5D7E5; font: 600 14px Inter, sans-serif">Snooze</button>
+</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E3E4EE; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 12px">
+<span style="flex: 0 0 40px; width: 40px; height: 40px; border-radius: 12px; background: #D97757; display: flex; align-items: center; justify-content: center; color: #0E0F1A; font-weight: 700; font-size: 16px">C</span>
+<div>
+<p style="margin: 0; font-size: 16px; font-weight: 700">Claude is waiting for input</p>
+<p style="margin: 2px 0 0; font-size: 13px; color: #5B5F73">Partner API session · 18 min</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 15px; line-height: 1.45; color: #2B2E40">Asks which retry limit to use for failed webhooks: 3 or 5?</p>
+<div style="display: flex; gap: 8px">
+<a href="https://github.com" style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 12px; background: #4F46E5; color: #FFFFFF; font-size: 14px; font-weight: 600; text-decoration: none">Open session</a>
+<button type="button" style="min-height: 44px; padding: 0 16px; border-radius: 12px; background: #FFFFFF; color: #0E0F1A; border: 1px solid #D5D7E5; font: 600 14px Inter, sans-serif">Later</button>
+</div>
+</div>
+<div style="margin-top: 18px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 0 24px">
+<span style="width: 52px; height: 52px; border-radius: 50%; border: 2px solid #6366F1; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"></path></svg></span>
+<p style="margin: 0; font-size: 17px; font-weight: 700">That's everything that needs you.</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #5B5F73">The rest is in your feed. Your daily diff arrives at 08:00.</p>
+</div>
+</main>
+<nav aria-label="Main" style="border-top: 1px solid #E3E4EE; background: #FFFFFF; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 8px 8px 22px">
+<button type="button" style="min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; background: none; border: 0; color: #5B5F73; font: 500 11px Inter, sans-serif"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B5F73" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h10"></path></svg>Feed</button>
+<button type="button" aria-current="page" style="min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; background: none; border: 0; color: #4F46E5; font: 700 11px Inter, sans-serif"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15L6 16z"></path><path d="M10 20a2 2 0 0 0 4 0"></path></svg>Needs you</button>
+<button type="button" style="min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; background: none; border: 0; color: #5B5F73; font: 500 11px Inter, sans-serif"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B5F73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5z"></path></svg>Suggestions</button>
+<button type="button" style="min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; background: none; border: 0; color: #5B5F73; font: 500 11px Inter, sans-serif"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B5F73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4"></path><path d="M5 4h12l-2 4 2 4H5"></path></svg>Releases</button>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
